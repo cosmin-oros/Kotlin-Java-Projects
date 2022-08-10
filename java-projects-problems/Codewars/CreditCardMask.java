@@ -1,9 +1,9 @@
-package codewars;
+package Codewars;
 
 public class CreditCardMask {
 
-	public static void main(String[] args) {
-		String string = new Maskify("1234");
+	public void main(String[] args) {
+		String string = Maskify.maskify("1234");
 		System.out.println(string);
 	}
 	public class Maskify {

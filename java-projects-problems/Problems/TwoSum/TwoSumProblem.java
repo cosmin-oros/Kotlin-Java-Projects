@@ -5,6 +5,9 @@ public class TwoSumProblem {
         TwoSum sum = new TwoSum();
         int[] nrs = {1, 2, 3, 4, 5};
         int target = 5;
-        System.out.println(sum.twoSum(nrs, target));
+        int[] n = sum.twoSum(nrs, target);
+        for (int i = 0; i < n.length; i++){
+            System.out.print(n[i] + " ");
+        }
     }
 }
